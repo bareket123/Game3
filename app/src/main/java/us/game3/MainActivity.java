@@ -31,11 +31,6 @@ public class MainActivity extends Activity implements View.OnClickListener{
         // add quit listener
         Button button3 =(Button) findViewById(R.id.button3);
         button3.setOnClickListener(this);
-        button3.setOnClickListener(e->{
-            finish();
-            System.exit(0);
-        });
-
 
 
 
